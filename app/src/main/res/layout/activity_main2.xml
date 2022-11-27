@@ -95,4 +95,19 @@
         app:layout_constraintStart_toStartOf="@+id/repeatpass"
         app:layout_constraintTop_toBottomOf="@+id/repeatpass" />
 
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="122dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:background="@drawable/login_bg"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/signup"
+        app:layout_constraintStart_toStartOf="@+id/signup"
+        app:layout_constraintTop_toBottomOf="@+id/signup" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
